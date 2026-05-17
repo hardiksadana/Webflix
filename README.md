@@ -1,80 +1,16 @@
-# Netflix Clone 🎬
+# React + Vite
 
-A fully responsive Netflix-inspired web application built using **React.js** and **Express.js** that allows users to browse movies, explore content, and experience a Netflix-like UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- User Authentication
-- Dynamic movie browsing
-- Responsive UI design
-- Clean Netflix-inspired interface
-- API integration for movie data
-- Scalable backend structure with Express.js
+Currently, two official plugins are available:
 
-## Tech Stack
-### Frontend
-- React.js
-- JavaScript
-- HTML5
-- CSS3
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Backend
-- Express.js
-- Node.js
+## React Compiler
 
-## Installation
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Clone the repository:
+## Expanding the ESLint configuration
 
-```bash
-git clone https://github.com/hardiksadana/netflix-clone.git
-```
-
-Navigate to project folder:
-
-```bash
-cd netflix-clone
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run frontend:
-
-```bash
-npm run dev
-```
-
-Run backend:
-
-```bash
-npm start
-```
-
-## Live Demo
-Add your deployed link here
-
-Example:
-https://your-netflix-clone.vercel.app
-
-## Screenshots
-<img width="1902" height="897" alt="image" src="https://github.com/user-attachments/assets/cbad0643-838a-453f-b083-fdba5ade2f8a" />
-<img width="1917" height="907" alt="image" src="https://github.com/user-attachments/assets/728174e3-bc33-4595-85f0-ad987d87bd56" />
-<img width="1896" height="902" alt="image" src="https://github.com/user-attachments/assets/b78d73cf-a922-40d2-a160-e42b0e79fdaf" />
-<img width="1882" height="907" alt="image" src="https://github.com/user-attachments/assets/8f812208-9395-49a8-b8d3-034260e92d8f" />
-<img width="1867" height="902" alt="image" src="https://github.com/user-attachments/assets/72eeff23-57c3-43c4-a7db-afd92c969f29" />
-
-
-
-## Future Improvements
-- Payment integration
-- Watchlist feature
-- Better recommendation system
-- Admin dashboard
-
-## Author
-Hardik Sadana
-
-GitHub: https://github.com/hardiksadana
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
